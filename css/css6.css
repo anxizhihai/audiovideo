@@ -1,0 +1,470 @@
+body {
+    background: #EFF2F5;
+}
+
+.div-main {
+    width: 100%;
+    height: 100%;
+    background: #EFF2F5;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #272727;
+    line-height: 60px;
+    clear: both;
+}
+
+.title {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.img-left {
+    float: left;
+}
+
+.header-span {
+    float: left;
+}
+
+.headerspan2,
+.headerspan3,
+.headerspan4,
+.headerspan5,
+.headerspan6 {
+    height: 50px;
+    display: inline-block;
+    font-family: PingFangSC-Medium;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 51px;
+    cursor: pointer;
+}
+
+.headerspan1 {
+    height: 50px;
+    display: inline-block;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #F9BE04;
+    margin-left: 51px;
+    border-bottom: 2px solid #F9BE04;
+    cursor: pointer;
+}
+
+.jiantou {
+    position: relative;
+    width: 42px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 160px;
+}
+
+.arrow {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+
+.arrow:after,
+.arrow:before {
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-left-color: #EFF2F5;
+    position: absolute;
+    content: "";
+    top: 7px;
+}
+
+.arrow:before {
+    border-left-color: #363636;
+    position: absolute;
+    left: 30px;
+}
+
+.jantou2 {
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 2px;
+}
+
+
+/**页头搜索栏*/
+
+.header-sousuo {
+    width: 260px;
+    height: 60px;
+    position: relative;
+    float: right;
+}
+
+.myinput1 {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.myselect1 {
+    border: 1px solid white;
+    border-right: none;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+}
+
+.header-sousuoimg {
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+
+/**正文*/
+
+.articlebox {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.article-gao {
+    width: 820px;
+    height: 2010px;
+    background: #FFFFFF;
+    margin-left: 160px;
+}
+
+.biaoti {
+    width: 820px;
+    height: 130px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.biaoti p {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+    padding-top: 37px;
+    padding-left: 147px;
+}
+
+.biaoti span {
+    display: inline-block;
+    width: 360px;
+    height: 20px;
+    padding-left: 234px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+}
+
+.pictures img {
+    width: 700px;
+    height: 512px;
+    margin-left: 62px;
+    margin-top: 31px;
+}
+
+.words {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.words p {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+}
+
+.word {
+    margin-top: 19px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.word p {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+}
+
+.picture img {
+    width: 700px;
+    height: 525px;
+    margin-left: 60px;
+    margin-top: 37px;
+}
+
+.erweima img {
+    width: 208px;
+    height: 208px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.articlewordss {
+    width: 820px;
+    height: 60px;
+    margin-top: 53px;
+}
+
+.articlewordss1 {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #206698;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.articlewordss2 {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #206698;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.notice {
+    width: 300px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    position: absolute;
+    top: 1px;
+    left: 1040px;
+}
+
+.btn {
+    width: 92px;
+    height: 32px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #206698;
+    border-radius: 5px;
+    border: 1px solid #206698;
+    margin-top: 15px;
+}
+
+.notice li {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+
+/**页脚*/
+
+.footer {
+    width: 100%;
+    height: 190px;
+    background: #272727;
+    margin-top: 86px;
+}
+
+.footer-link span {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.footer-link {
+    padding-top: 38px;
+    margin-left: 160px;
+}
+
+.myinputone {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    background: #FFFFFF;
+}
+
+.myselectone {
+    border: 1px solid white;
+    border-right: none;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+}
+
+.header-sousuoone {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    float: right;
+    margin-right: 260px;
+}
+
+.header-sousuoimgone {
+    position: absolute;
+    top: 2px;
+    left: 220px;
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+}
+
+.message {
+    width: 1121px;
+    height: 74px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.5;
+    margin-left: 160px;
+    margin-top: 55px;
+}
+
+.message span {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+.my-div {
+    width: 190px;
+    height: 198px;
+    margin: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    background: #EFF2F5;
+    cursor: pointer;
+}
+
+
+/*效果二：放大 修改scale(放大的值)*/
+
+.my-div {
+    transition: All 1s ease-in-out;
+    /*控制时间*/
+    -webkit-transition: All 1s ease-in-out;
+    -moz-transition: All 1s ease-in-out;
+    -o-transition: All 1s ease-in-out;
+}
+
+.my-div:hover .my-div1 {
+    transform: scale(1.2);
+    /*2d缩放转换*/
+    -webkit-transform: scale(1.2);
+    /* Safari 和 Chrome */
+    -moz-transform: scale(1.2);
+    /* Firefox */
+    -o-transform: scale(1.2);
+    /* Opera */
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    opacity: 1;
+}
+
+.my-div {
+    position: relative;
+    float: left;
+    margin-right: 1px;
+}
+
+.my-img {
+    width: 190px;
+    height: 156px;
+}
+
+.my-span {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 166px;
+    font-size: 14px;
+}
+
+
+/*内嵌的div*/
+
+.my-div1 {
+    width: 216px;
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.13);
+    position: relative;
+    opacity: 0;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: All 0.4s ease-in-out;
+    /*控制时间*/
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.my-img1 {
+    width: 190px;
+    height: 156px;
+    margin: 13px;
+}
+
+.my-span1 {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+    position: absolute;
+    top: 177px;
+    left: 12px;
+}
+
+.one {
+    width: 1000px;
+    height: 260px;
+    margin-left: 140px;
+}
+
+.two {
+    width: 1000px;
+    height: 260px;
+    margin-left: 140px;
+}
+
+.picturenews p {
+    margin-left: 160px;
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+    cursor: pointer;
+}

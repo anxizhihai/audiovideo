@@ -1,0 +1,258 @@
+body {
+    background: #EFF2F5;
+}
+
+.div-main {
+    width: 100%;
+    height: 100%;
+    background: #EFF2F5;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #272727;
+    line-height: 60px;
+    clear: both;
+}
+
+.title {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.img-left {
+    float: left;
+}
+
+.header-span {
+    float: left;
+}
+
+.header-span span {
+    display: inline-block;
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 51px;
+    cursor: pointer;
+}
+
+.jiantou {
+    position: relative;
+    width: 42px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 160px;
+}
+
+.arrow {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+
+.arrow:after,
+.arrow:before {
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-left-color: #EFF2F5;
+    position: absolute;
+    content: "";
+    top: 7px;
+}
+
+.arrow:before {
+    border-left-color: #363636;
+    position: absolute;
+    left: 30px;
+}
+
+.jantou2 {
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 2px;
+}
+
+.myinput {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 35px;
+    position: absolute;
+    left: 60px;
+    width: 350px;
+    background: #FFFFFF;
+}
+
+.myselect {
+    border: 1px solid white;
+    border-right: 1px solid rgb(233, 82, 82);
+    height: 38px;
+    position: absolute;
+    left: 10px;
+}
+
+.search {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.mydiv {
+    width: 380px;
+    height: 60px;
+    position: relative;
+    margin-top: 47px;
+    margin-left: 500px;
+}
+
+.mybutton {
+    width: 84px;
+    height: 38px;
+    background: #F9BE04;
+    position: absolute;
+    left: 350px;
+    border: none;
+}
+
+
+/**页头搜索栏*/
+
+.header-sousuo {
+    width: 260px;
+    height: 60px;
+    position: relative;
+    float: right;
+}
+
+.myinput1 {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.myselect1 {
+    border: 1px solid white;
+    border-right: none;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+}
+
+.header-sousuoimg {
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+
+/**图文区域*/
+
+.image-text {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagebox {
+    width: 900px;
+    height: 900px;
+    position: absolute;
+}
+
+.article1 {
+    width: 820px;
+    height: 180px;
+    background: #FFFFFF;
+    margin-bottom: 21px;
+    margin-top: 40px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.article2,
+.article3,
+.article4 {
+    width: 820px;
+    height: 180px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+
+.article1-div1 {
+    width: 372px;
+    height: 25px;
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #363636;
+    margin-left: 31px;
+    padding-top: 20px;
+}
+
+.article1-div2 {
+    width: 341px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-left: 35px;
+    margin-top: 11px;
+}
+
+.article1-div3 {
+    width: 525px;
+    height: 63px;
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+    margin-left: 35px;
+    margin-top: 22px;
+}
+
+.article1-pic {
+    width: 228px;
+    height: 180px;
+}
+
+.article1-picture {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+a {
+    margin: 3px;
+    text-decoration: none;
+}
+
+.div-fenye {
+    height: 60px;
+    padding-left: 650px;
+    margin-top: 100px;
+}

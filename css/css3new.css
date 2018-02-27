@@ -1,0 +1,306 @@
+body {
+    background: #EFF2F5;
+}
+
+.div-main {
+    width: 100%;
+    height: 100%;
+    background: #EFF2F5;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #272727;
+    line-height: 60px;
+    clear: both;
+}
+
+.title {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.img-left {
+    float: left;
+}
+
+.header-span {
+    float: left;
+}
+
+.header-span span {
+    display: inline-block;
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 51px;
+    cursor: pointer;
+}
+
+.jiantou {
+    position: relative;
+    width: 42px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 160px;
+}
+
+.arrow {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+
+.arrow:after,
+.arrow:before {
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-left-color: #EFF2F5;
+    position: absolute;
+    content: "";
+    top: 7px;
+}
+
+.arrow:before {
+    border-left-color: #363636;
+    position: absolute;
+    left: 30px;
+}
+
+.jantou2 {
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 2px;
+}
+
+
+/**页头搜索栏*/
+
+.header-sousuo {
+    width: 260px;
+    height: 60px;
+    position: relative;
+    float: right;
+}
+
+.myinput1 {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.myselect1 {
+    border: 1px solid white;
+    border-right: none;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+}
+
+.header-sousuoimg {
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+
+/**正文*/
+
+.articlebox {
+    width: 1400px;
+    position: relative;
+}
+
+.article-gao {
+    width: 820px;
+    height: 266px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background: #FFFFFF;
+}
+
+.article-gao1 {
+    width: 820px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background: #FFFFFF;
+}
+
+.article-gao2 {
+    width: 820px;
+    height: 266px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background: #FFFFFF;
+}
+
+.article-marg {
+    margin-left: 42px;
+}
+
+.article-span1 {
+    width: 520px;
+    height: 25px;
+    padding-top: 20px;
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #363636;
+}
+
+.article-span2 {
+    margin-top: 11px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+}
+
+.hr {
+    border: 1px solid #EBEBEB;
+}
+
+.article-span3 {
+    margin-top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+.notice {
+    width: 300px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    position: absolute;
+    top: 1px;
+    left: 1040px;
+}
+
+.btn {
+    width: 92px;
+    height: 32px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #206698;
+    border-radius: 5px;
+    border: 1px solid #206698;
+    margin-top: 15px;
+}
+
+.notice li {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 12px;
+}
+
+
+/**页脚*/
+
+.footer {
+    width: 100%;
+    height: 190px;
+    background: #272727;
+    margin-top: 86px;
+}
+
+.footerbox {
+    width: 1400px;
+}
+
+.footer-link span {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.footer-link {
+    padding-top: 38px;
+    margin-left: 160px;
+}
+
+.myinputone {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    background: #FFFFFF;
+}
+
+.myselectone {
+    border: 1px solid white;
+    border-right: none;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+}
+
+.header-sousuoone {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    float: right;
+    margin-right: 260px;
+}
+
+.header-sousuoimgone {
+    position: absolute;
+    top: 2px;
+    left: 220px;
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+}
+
+.message {
+    width: 1121px;
+    height: 74px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.5;
+    margin-left: 160px;
+    margin-top: 55px;
+}
+
+.message span {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+.opa {
+    float: left;
+    margin-left: 900px;
+    cursor: pointer;
+}
